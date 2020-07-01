@@ -253,6 +253,9 @@
      border-bottom: 1px solid #ECECEC;
      
  }
+ .image-hobby{
+     position: relative;
+ }
  
  .advantage-list{
      margin-right: 30px;
@@ -387,6 +390,11 @@
     
  }
  .hobby-advantage{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
