@@ -826,6 +826,8 @@ padding-left: 41px;
 .capabilities{
     margin-right: 30px;
     margin-bottom: 30px;
+
+    
     
     width: 370px;
 
@@ -845,6 +847,8 @@ padding-left: 41px;
      rgba(0, 0, 0, 0.16), 0px 4px 4px
       rgba(0, 0, 0, 0.06), 0px 1px 1px 
       rgba(0, 0, 0, 0.12);
+      
+     
 }
 
 .portfolio-h2{
@@ -887,9 +891,44 @@ padding-left: 41px;
      text-decoration: none;
  }
 .portfolio-img{
+    
+
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .text-capabilities{
+    position: absolute;
+  
+    bottom: 63px;
+    right: 24px;
+    left: 24px;
+    top: 63px; 
+
     margin: 0px;
+
+    /* opacity: 0; */
+    
+    color: currentColor;
+
+        /* font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.03em; */
+        
+        
+            
+}
+ .text-capabilities:hover{
+    opacity: 1;
+    color: #fff;
+} 
+.lable{
+    position: relative;
+}
+.lable::before{
+    content: "";
+    
 }
